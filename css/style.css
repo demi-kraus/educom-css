@@ -1,3 +1,33 @@
+h1 { Font-size: 30px;
+     font-family:'Courier New', Courier, monospace;
+     color:#211079a4
+}
+
+#volg{width: inherit;
+     height: 30px;
+     color: #FFF;
+     padding: 20px;
+     margin: 10px;
+     font-size: 14px;
+     background-color: rgba(255, 0, 200, 0.4);
+     display: inline-block;
+     border-style: dotted;
+
+}
+
+
+.square {
+     width: 30px;
+     height: 30px;
+     color: #ffffff;
+     padding: 20px;
+     margin: 10px;
+     margin-right: 0px;
+     font-size: 14px;
+     background-color: rgba(5, 227, 16, 0.4);
+     display: inline-block;
+     border-style: dotted;
+}
 .red-square {
      width: 80px;
      height: 80px;
@@ -8,3 +38,14 @@
      background-color: rgba(255,0,0,0.4);
      display: inline-block;
 }
+
+#person{
+    width: 80px;
+    height: 30px;
+    color : #FFF;
+    background-color:rgb(68, 255, 0);
+}
+
+p { font-size: 20px;
+    color: rgb(12, 0, 70);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif:}
