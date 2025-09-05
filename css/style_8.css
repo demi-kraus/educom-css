@@ -1,0 +1,19 @@
+a:link{
+    color:blue;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a:visited{
+    color:grey;
+
+}
+
+a:hover{
+    color:hotpink;
+    font-size:20px;
+}
+
+a:active {
+  color: red;
+}
