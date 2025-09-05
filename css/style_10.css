@@ -1,0 +1,75 @@
+:root{
+
+    /* Colors */
+    --blue: #8acef3;
+    --darkblue:#013c5c ; 
+}
+
+
+.button-container a{
+    width: 200px;
+    padding: 10px;
+    color: #FFF;
+    background-color: #F00;
+
+    /* rounding the corners */
+    border-radius:10px;
+
+    /*CREATED WITH THE SHADOW GENERATOR*/
+    -webkit-box-shadow: 0pc 0pc 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6); 
+
+   /* Let's get rid of the underline */
+    text-decoration: none;
+}
+
+.button-container a:hover {
+    background-color: #AF1F16;
+    /* Let's get rid of the underline */
+    text-decoration: none;
+}
+
+.button-container2 a{
+    width:200px;
+    margin-top:100px;
+    padding:20px;
+     /* rounding the corners */
+    border-radius:10px;
+
+    /*CREATED WITH THE SHADOW GENERATOR*/
+    -webkit-box-shadow: 0pc 0pc 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    color:#FFF;
+    background-color:var(--blue);
+    text-decoration: none;
+}
+
+.button-container2 a:hover{
+    background-color:var(--darkblue);
+    text-decoration: none;
+}
+
+.button-container3 a{
+    width:200px;
+    padding:20px;
+     /* rounding the corners */
+    border-radius:10px;
+
+    /*CREATED WITH THE SHADOW GENERATOR*/
+    -webkit-box-shadow: 0pc 0pc 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    
+    color: #FFF;
+    background: var(--blue) ;
+    background: linear-gradient(80deg, var(--blue) 0%, var(--darkblue) 100%);
+    text-decoration: none;
+}
+
+.button-container3 a:hover{
+    background: var(--darkblue) ;
+    background: linear-gradient(80deg, var(--darkblue) 0%, var(--blue) 100%);
+    text-decoration: none;
+}
