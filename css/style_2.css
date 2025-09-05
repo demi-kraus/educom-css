@@ -1,0 +1,34 @@
+a {    
+    font-size:22px;
+    color:#F0F;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#000;
+
+}
+
+
+.cascading-parent h2{
+    color:#FD0;
+    font-size: 15px;
+}
+
+.cascading-parent p{
+    color:#CCC;
+    font-size: 10px;
+
+}
+.cascading-parent a{
+    width: inherit;
+     height: 15px;
+     padding: 10px;
+     margin: 10px;
+     font-size: 14px;
+     background-color: rgba(130, 124, 128, 0.4);
+     display: inline-block;
+     border-style: dotted;
+    font-size:15px;
+}
