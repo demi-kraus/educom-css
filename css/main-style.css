@@ -6,41 +6,128 @@ html, body{
 
 .navigation{
     width:100%;
-    background-color: #1D71B8;
-    color: #FFF;
+    background-color: #FFF;
+    color: #000;
     padding: 40px;
 
 }
 
-.content{
-    display: flex;
-    background-color:#FF0;
-    justify-content: center;
-    align-items: center;
-    padding:30px;
+.navigation-left{
+    position:fixed;
+    top:20px;
+    left:20px;
 }
 
-.block{
-    background-color: #F00;
-    display: inline-block;
-    width: 32%;
-    height: 150px;
-    margin: 5px;
-    border-radius: 5%;
+.navigation-right{
+    position:fixed;
+    top:20px;
+    right:20px;
+}
+
+.menu-trigger{
+    cursor: pointer;
+    transition: all 0.4s ease;
+    background-color:#ffffff;
+    width: auto;
+    height: auto;
+    Z-index:5000 !important;
+}
+
+.menu-trigger:hover{
+    background-color:#000000;
+    width: auto;
+    height: auto;
+    color: #FFF;
+}
+
+.menu-trigger:hover .dropdown{
+    top: 0px;
+}
+
+.dropdown{
+    position: fixed;
+    top: -400px;
+    left: 0;
+    right: 0;
+    height: 200px;
+    background-color: #000;
+    transition: all 0.4s ease;
+    padding: 40px;
+
+
+}
+.content {
+    display: flex;
+    background-color:#FFF;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+}
+
+.block {
+    color:#FFF;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    line-height:200px;
+    width: 25%;
+    height: 200px;
+    margin: 10px;
+    margin-bottom:100px;
+    margin-top:100px;
+    padding:10px;
     border: 0px solid transparent;
+    border-radius: 5%;
     transition: all 0.4s ease;
 }
 
+
 .block:hover {
-    border: 10px solid transparent;
+    width: 30%;
+    height: 250px;
+    line-height:250px;
+    margin-bottom:75px;
+    margin-top:75px;
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
+.block-rome {   
+    background: url("https://www.shutterstock.com/image-photo/black-white-scenic-view-colosseum-600nw-2362304563.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+}
+
+.block-bruxelles { 
+    background: url("https://www.mrsmithworldphotography.com/photos/Atomium-Brussels-1.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+}
+
+.block-newyork { 
+    background: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/new-york-city-black-white-crystal-wightman.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+}
 
 .footer{
-    background-color: #000;
+    background-color: #CCC;
     color: #FFF;
-    padding: 40px;
+    padding: 100px;
+    
+}.footer-left{
+    position:fixed;
+    bottom:60px;
+    left:20px;
+}
+
+
+.footer-right{
+    position: fixed;
+    bottom:60px;
+    right:20px;
 }
